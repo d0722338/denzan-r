@@ -1,0 +1,79 @@
+@charset "utf-8";
+
+@media screen and (max-width: 959px) {
+	/* 959px以下に適用されるCSS（タブレット用） */
+}
+@media screen and (max-width: 480px) {
+	/* 480px以下に適用されるCSS（スマホ用） */
+}
+
+.imputfrom{
+    border: 5px;
+}
+
+body{
+    text-align: center;
+    background-color: white;
+    border: dotted 2px gray;
+    font-weight: bold;
+}
+
+table {
+    border-collapse: collapse;
+    border: solid 1px black;
+    width: 300px;
+}
+
+p{
+    font-size: large;
+    font-family: "Noto Serif JP", serif;
+    font-weight: lighter
+}
+
+span#size{
+    font-size: xx-small;
+    font-family: "Noto Serif JP", serif;
+    letter-spacing: 6px;
+}
+
+span#kaisuu{
+    font-size: xx-small;
+    font-family: "Noto Serif JP", serif;
+}
+.right-align {
+    text-align: right;
+    padding-right: 15px;
+    font-family: "Hi Melody", sans-serif;
+    font-weight: lighter;
+    font-size: large;
+    letter-spacing: 3px;
+}
+.no1{
+    font-family: "Gamja Flower", sans-serif;
+    font-size: large;
+    letter-spacing: 3px;
+    text-align: right;
+    padding-right: 15px;
+    font-weight: bold;
+}
+
+.Number{
+    text-align: right;
+    padding-right: 5px;
+    font-family: "Hi Melody", sans-serif;
+    font-weight: lighter;
+    font-size: large;
+    letter-spacing: 3px;
+    font-weight: bold;
+}
+
+.Number2{
+    font-family: "Delius Unicase", cursive;
+    text-align: right;
+    padding-right: 5px;
+    font-weight: lighter;
+    font-size: large;
+    letter-spacing: 3px;
+    font-weight: bold;
+}
+
